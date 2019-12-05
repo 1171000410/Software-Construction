@@ -1,0 +1,949 @@
+INFO: 2019-05-17 23:01:17 422 applications.MyOrbitScenes main aaa
+INFO: 2019-05-17 23:01:19 716 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-17 23:01:19 719 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-17 23:01:19 720 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-17 23:01:19 721 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-17 23:01:19 724 circularOrbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-17 23:01:19 725 circularOrbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-17 23:01:19 726 circularOrbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-17 23:01:19 726 circularOrbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-17 23:01:25 263 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-17 23:01:27 207 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-17 23:06:26 187 applications.MyOrbitScenes main aaa
+INFO: 2019-05-17 23:06:28 626 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem_Exception.txt
+SEVERE: 2019-05-17 23:06:28 631 circularOrbit.StellarSystem readFile exception.LabelException:恒星名称不是Label类型! Wrong:Su n
+SEVERE: 2019-05-17 23:06:28 633 circularOrbit.StellarSystem readFile exception.GrammarException:行星方向使用了小写字母! Wrong:CaW
+SEVERE: 2019-05-17 23:06:28 636 circularOrbit.StellarSystem readFile exception.NumberException:e之前的数字的整数部分必须在1到9范围内 Wrong:11.0
+SEVERE: 2019-05-17 23:06:28 637 circularOrbit.StellarSystem readFile exception.NumberException:e之后的数字只能是大于3的正整数 Wrong:2
+SEVERE: 2019-05-17 23:06:28 637 circularOrbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:16237.007
+SEVERE: 2019-05-17 23:06:28 640 circularOrbit.StellarSystem readFile exception.LabelException:行星名称已出现! Wrong:Mars
+SEVERE: 2019-05-17 23:06:28 640 circularOrbit.StellarSystem readFile exception.DependencyException:行星半径不能大于轨道半径! Wrong:行星Uranus
+INFO: 2019-05-17 23:06:36 834 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-17 23:06:38 561 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-17 23:13:50 10 applications.MyOrbitScenes main aaa
+INFO: 2019-05-17 23:13:52 342 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle_Exception.txt
+SEVERE: 2019-05-17 23:13:52 346 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:CentralUser姓名不是Label类型! Wrong:Tomm#yW$ong
+SEVERE: 2019-05-17 23:13:52 347 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:CentralUser年龄不是正整数! Wrong:0
+SEVERE: 2019-05-17 23:13:52 348 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:性别必须取M|F之一 Wrong:T
+SEVERE: 2019-05-17 23:13:52 350 circularOrbit.SocialNetworkCircle readFile exception.NumberException:信息的分量个数不正确! Wrong:Laotie
+SEVERE: 2019-05-17 23:13:52 353 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:亲密度必须是在(0,1]内的小数! Wrong:1.02
+SEVERE: 2019-05-17 23:13:52 354 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:亲密度最多3位小数! Wrong:0.3342
+SEVERE: 2019-05-17 23:13:52 355 circularOrbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:PonyMa and JackMa
+SEVERE: 2019-05-17 23:13:52 356 circularOrbit.SocialNetworkCircle readFile exception.DependencyException:Friend未定义就在SocialTie中使用 Wrong:Bill
+INFO: 2019-05-17 23:13:57 98 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-17 23:13:58 857 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:24:12 399 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-18 01:24:14 227 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:24:25 19 applications.MyOrbitScenes main aaa
+INFO: 2019-05-18 01:24:27 100 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem_Exception.txt
+SEVERE: 2019-05-18 01:24:27 105 circularOrbit.StellarSystem readFile exception.LabelException:恒星名称不是Label类型! Wrong:Su n
+SEVERE: 2019-05-18 01:24:27 107 circularOrbit.StellarSystem readFile exception.GrammarException:行星方向使用了小写字母! Wrong:CaW
+SEVERE: 2019-05-18 01:24:27 109 circularOrbit.StellarSystem readFile exception.NumberException:e之前的数字的整数部分必须在1到9范围内 Wrong:11.0
+SEVERE: 2019-05-18 01:24:27 110 circularOrbit.StellarSystem readFile exception.NumberException:e之后的数字只能是大于3的正整数 Wrong:2
+SEVERE: 2019-05-18 01:24:27 111 circularOrbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:16237.007
+SEVERE: 2019-05-18 01:24:27 113 circularOrbit.StellarSystem readFile exception.LabelException:行星名称已出现! Wrong:Mars
+SEVERE: 2019-05-18 01:24:27 113 circularOrbit.StellarSystem readFile exception.DependencyException:行星半径不能大于轨道半径! Wrong:行星Uranus
+INFO: 2019-05-18 01:24:42 708 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-18 01:24:43 971 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:24:47 406 applications.MyOrbitScenes main aaa
+INFO: 2019-05-18 01:24:56 506 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle_Exception.txt
+SEVERE: 2019-05-18 01:24:56 511 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:CentralUser姓名不是Label类型! Wrong:Tomm#yW$ong
+SEVERE: 2019-05-18 01:24:56 512 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:CentralUser年龄不是正整数! Wrong:0
+SEVERE: 2019-05-18 01:24:56 513 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:性别必须取M|F之一 Wrong:T
+SEVERE: 2019-05-18 01:24:56 515 circularOrbit.SocialNetworkCircle readFile exception.NumberException:信息的分量个数不正确! Wrong:Laotie
+SEVERE: 2019-05-18 01:24:56 518 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:亲密度必须是在(0,1]内的小数! Wrong:1.02
+SEVERE: 2019-05-18 01:24:56 519 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:亲密度最多3位小数! Wrong:0.3342
+SEVERE: 2019-05-18 01:24:56 520 circularOrbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:PonyMa and JackMa
+SEVERE: 2019-05-18 01:24:56 521 circularOrbit.SocialNetworkCircle readFile exception.DependencyException:Friend未定义就在SocialTie中使用 Wrong:Bill
+INFO: 2019-05-18 01:25:15 1 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-18 01:25:17 686 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:26:09 736 applications.MyOrbitScenes main aaa
+INFO: 2019-05-18 01:26:34 141 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-18 01:26:34 145 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-18 01:26:34 145 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-18 01:26:34 145 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-18 01:26:34 148 circularOrbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-18 01:26:34 148 circularOrbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-18 01:26:34 148 circularOrbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-18 01:26:34 148 circularOrbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-18 01:26:53 906 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-18 01:26:55 852 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:27:04 721 applications.MyOrbitScenes main aaa
+INFO: 2019-05-18 01:27:06 745 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem_Exception.txt
+SEVERE: 2019-05-18 01:27:06 750 circularOrbit.StellarSystem readFile exception.LabelException:恒星名称不是Label类型! Wrong:Su n
+SEVERE: 2019-05-18 01:27:06 752 circularOrbit.StellarSystem readFile exception.GrammarException:行星方向使用了小写字母! Wrong:CaW
+SEVERE: 2019-05-18 01:27:06 753 circularOrbit.StellarSystem readFile exception.NumberException:e之前的数字的整数部分必须在1到9范围内 Wrong:11.0
+SEVERE: 2019-05-18 01:27:06 753 circularOrbit.StellarSystem readFile exception.NumberException:e之后的数字只能是大于3的正整数 Wrong:2
+SEVERE: 2019-05-18 01:27:06 754 circularOrbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:16237.007
+SEVERE: 2019-05-18 01:27:06 755 circularOrbit.StellarSystem readFile exception.LabelException:行星名称已出现! Wrong:Mars
+SEVERE: 2019-05-18 01:27:06 756 circularOrbit.StellarSystem readFile exception.DependencyException:行星半径不能大于轨道半径! Wrong:行星Uranus
+INFO: 2019-05-18 01:27:22 519 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-18 01:27:24 359 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:27:44 829 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-18 01:27:46 817 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 01:28:14 552 applications.MyOrbitScenes main aaa
+INFO: 2019-05-18 01:28:26 385 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle_Exception.txt
+SEVERE: 2019-05-18 01:28:26 391 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:CentralUser姓名不是Label类型! Wrong:Tomm#yW$ong
+SEVERE: 2019-05-18 01:28:26 391 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:CentralUser年龄不是正整数! Wrong:0
+SEVERE: 2019-05-18 01:28:26 391 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:性别必须取M|F之一 Wrong:T
+SEVERE: 2019-05-18 01:28:26 393 circularOrbit.SocialNetworkCircle readFile exception.NumberException:信息的分量个数不正确! Wrong:Laotie
+SEVERE: 2019-05-18 01:28:26 396 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:亲密度必须是在(0,1]内的小数! Wrong:1.02
+SEVERE: 2019-05-18 01:28:26 396 circularOrbit.SocialNetworkCircle readFile exception.GrammarException:亲密度最多3位小数! Wrong:0.3342
+SEVERE: 2019-05-18 01:28:26 397 circularOrbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:PonyMa and JackMa
+SEVERE: 2019-05-18 01:28:26 397 circularOrbit.SocialNetworkCircle readFile exception.DependencyException:Friend未定义就在SocialTie中使用 Wrong:Bill
+INFO: 2019-05-18 01:28:32 60 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-18 01:28:33 549 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 11:02:00 86 applications.MyOrbitScenes main aaa
+INFO: 2019-05-18 11:02:49 584 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/StellarSystem_Exception.txt
+INFO: 2019-05-18 11:03:07 873 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 11:03:18 931 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-18 11:03:18 968 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-18 11:03:18 968 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-18 11:03:18 969 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-18 11:03:19 5 circularOrbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-18 11:03:19 5 circularOrbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-18 11:03:19 5 circularOrbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-18 11:03:19 5 circularOrbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-18 11:03:24 533 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-18 11:03:27 816 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-18 11:03:30 399 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道4添加电子
+INFO: 2019-05-18 11:03:33 441 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道5删除电子
+INFO: 2019-05-18 11:03:35 906 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 1.268106
+INFO: 2019-05-18 11:03:47 942 applications.MyOrbitScenes simulateAtomStrcture 已成功实现电子跃迁！
+INFO: 2019-05-18 11:05:28 866 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-18 11:05:31 86 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 1.2681057323704885
+INFO: 2019-05-18 11:05:34 584 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 15:50:20 532 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-18 15:50:22 173 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 15:55:53 479 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-18 15:55:55 151 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 16:15:44 962 applications.MyOrbitScenes simulateAtomStrcture 已读取文件x
+SEVERE: 2019-05-18 16:15:44 995 circularOrbit.AtomStructure readFile 文件读取错误!
+INFO: 2019-05-18 16:15:48 387 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 16:18:23 508 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-18 21:30:50 808 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-19 21:52:58 143 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-19 22:05:23 382 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-19 22:05:23 397 circularOrbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-19 22:05:28 328 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-19 22:05:31 549 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-19 22:05:32 705 applications.MyOrbitScenes simulateAtomStrcture 输入选项错误，请重新输入！
+INFO: 2019-05-19 22:05:37 518 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-20 18:42:19 953 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-20 18:42:20 20 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-20 18:42:20 20 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-20 18:42:20 21 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-20 18:42:20 27 circularOrbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-20 18:42:20 27 circularOrbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-20 18:42:20 28 circularOrbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-20 18:42:20 28 circularOrbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-20 18:42:25 642 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-20 18:42:27 288 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-20 18:45:22 336 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-20 18:45:22 370 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-20 18:45:22 371 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-20 18:45:22 371 circularOrbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-20 18:45:22 373 circularOrbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-20 18:45:22 373 circularOrbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-20 18:45:22 373 circularOrbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-20 18:45:22 374 circularOrbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-20 18:45:26 325 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-20 18:45:27 943 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-20 18:45:42 253 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-20 22:38:19 889 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-20 22:38:32 167 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-20 22:38:37 996 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 20:16:05 663 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Exception.txt
+SEVERE: 2019-05-22 20:16:05 744 circularorbit.AtomStructure readFile exception.GrammarException:中心元素字母数不正确! Wrong:3
+SEVERE: 2019-05-22 20:16:05 745 circularorbit.AtomStructure readFile exception.GrammarException:中心元素字母第一位应大写! Wrong:a
+SEVERE: 2019-05-22 20:16:05 746 circularorbit.AtomStructure readFile exception.GrammarException:中心元素字母第二位应小写! Wrong:C
+SEVERE: 2019-05-22 20:16:05 754 circularorbit.AtomStructure readFile exception.DependencyException:第一层轨道电子数不能大于2! Wrong:3
+SEVERE: 2019-05-22 20:16:05 755 circularorbit.AtomStructure readFile exception.LabelException:轨道号已出现! Wrong:1
+SEVERE: 2019-05-22 20:16:05 756 circularorbit.AtomStructure readFile exception.GrammarException:轨道号大于轨道数! Wrong:轨道号6
+SEVERE: 2019-05-22 20:16:05 757 circularorbit.AtomStructure readFile exception.DependencyException:轨道数量依赖关系不正确!
+INFO: 2019-05-22 20:16:12 48 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-22 20:16:13 756 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 20:25:02 859 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-22 20:25:05 141 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 20:57:23 355 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-22 20:57:28 59 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 20:59:43 337 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-22 20:59:45 763 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 21:00:58 574 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-22 21:00:59 913 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 21:02:43 811 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-22 21:02:45 937 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:00:58 622 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:01:04 578 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:02:40 908 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:02:46 210 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:04:14 111 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:04:15 649 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:04:25 817 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:04:29 44 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:07:37 673 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:08:29 525 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:08:31 774 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:11:08 723 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:11:11 340 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:32:40 684 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:32:45 395 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:41:21 192 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:41:22 875 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:42:49 838 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:42:51 932 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 22:43:43 727 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-22 22:43:45 645 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 23:00:29 230 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-22 23:00:34 592 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 23:01:12 810 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-22 23:01:14 624 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 23:01:35 631 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-22 23:01:37 577 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-22 23:02:05 927 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-22 23:02:07 875 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-23 00:18:30 444 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-23 00:18:44 474 applications.MyOrbitScenes simulateAtomStrcture 删除5轨道
+INFO: 2019-05-23 00:20:41 678 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-23 00:21:14 861 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-23 00:21:57 449 applications.MyOrbitScenes simulateStellarSystem 已成功删除半径为1.49e8的轨道
+INFO: 2019-05-23 00:22:00 369 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-23 00:24:13 116 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-23 00:26:39 42 applications.MyOrbitScenes simulateStellarSystem 已读取文件write_txt/StellarSystemBufferWriter.txt
+SEVERE: 2019-05-23 00:26:39 80 circularorbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:696392.0
+SEVERE: 2019-05-23 00:26:39 82 circularorbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:149000.0
+SEVERE: 2019-05-23 00:26:39 82 circularorbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:1490000.0
+SEVERE: 2019-05-23 00:26:39 84 circularorbit.StellarSystem readFile exception.NumberException:未用科学记数法 Wrong:100000.0
+INFO: 2019-05-23 17:23:23 74 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+SEVERE: 2019-05-23 17:23:23 145 circularorbit.StellarSystem readFile exception.NumberException:信息的分量个数不正确! Wrong:59
+INFO: 2019-05-23 17:23:57 729 applications.MyOrbitScenes simulateSocialNetwork 已读取文件txt/SocialNetworkCircle.txt
+INFO: 2019-05-23 17:28:10 548 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+SEVERE: 2019-05-23 17:28:10 589 circularorbit.StellarSystem readFile exception.NumberException:信息的分量个数不正确! Wrong:59
+INFO: 2019-05-24 10:26:36 484 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 10:30:45 221 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-24 10:30:50 366 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 10:42:29 171 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 11:10:33 154 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem_Medium.txt
+INFO: 2019-05-24 11:10:55 860 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-24 11:11:07 128 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem_Medium.txt
+INFO: 2019-05-24 12:05:46 624 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 19:37:04 629 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 20:35:28 764 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 20:37:10 758 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 20:39:55 337 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 20:47:53 475 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 21:03:11 526 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 21:37:52 900 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 22:05:42 524 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-24 22:06:09 190 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 22:56:52 258 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-24 23:01:15 856 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+SEVERE: 2019-05-24 23:01:19 506 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5568 and u81373
+SEVERE: 2019-05-24 23:01:19 509 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6573 and u12423
+SEVERE: 2019-05-24 23:01:19 510 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1571 and u67118
+SEVERE: 2019-05-24 23:01:19 514 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12339 and u67222
+SEVERE: 2019-05-24 23:01:19 519 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6635 and u10296
+SEVERE: 2019-05-24 23:01:19 530 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9768 and u20134
+SEVERE: 2019-05-24 23:01:19 536 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3630 and u27049
+SEVERE: 2019-05-24 23:01:19 537 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3269 and u36315
+SEVERE: 2019-05-24 23:01:19 547 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32451 and u62358
+SEVERE: 2019-05-24 23:01:19 551 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13492 and u8960
+SEVERE: 2019-05-24 23:01:19 553 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4721 and u33705
+SEVERE: 2019-05-24 23:01:19 567 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12926 and u35084
+SEVERE: 2019-05-24 23:01:19 588 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6024 and u96644
+SEVERE: 2019-05-24 23:01:19 591 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u36249
+SEVERE: 2019-05-24 23:01:19 603 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12635 and u34402
+SEVERE: 2019-05-24 23:01:19 608 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14003 and u92738
+SEVERE: 2019-05-24 23:01:19 640 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5476 and u73645
+SEVERE: 2019-05-24 23:01:19 650 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13142 and u23868
+SEVERE: 2019-05-24 23:01:19 661 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12430 and u94757
+SEVERE: 2019-05-24 23:01:19 672 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u31915 and u14593
+SEVERE: 2019-05-24 23:01:19 677 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6189 and u69412
+SEVERE: 2019-05-24 23:01:19 681 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11338 and u78218
+SEVERE: 2019-05-24 23:01:19 682 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75365 and u9647
+SEVERE: 2019-05-24 23:01:19 686 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u22458 and u56300
+SEVERE: 2019-05-24 23:01:19 688 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74725 and u5267
+SEVERE: 2019-05-24 23:01:19 694 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u64418 and u12673
+SEVERE: 2019-05-24 23:01:19 708 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u62814
+SEVERE: 2019-05-24 23:01:19 711 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13175 and u42554
+SEVERE: 2019-05-24 23:01:19 739 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2609 and u67394
+SEVERE: 2019-05-24 23:01:19 763 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5301 and u30755
+SEVERE: 2019-05-24 23:01:19 774 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1118 and u73051
+SEVERE: 2019-05-24 23:01:19 787 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12282 and u7224
+SEVERE: 2019-05-24 23:01:19 795 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u27718 and u97870
+SEVERE: 2019-05-24 23:01:19 804 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12954 and u97074
+SEVERE: 2019-05-24 23:01:19 818 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3093 and u94626
+SEVERE: 2019-05-24 23:01:19 847 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10242 and u26116
+SEVERE: 2019-05-24 23:01:19 855 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8391 and u56309
+SEVERE: 2019-05-24 23:01:19 878 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7216 and u40664
+SEVERE: 2019-05-24 23:01:19 885 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89903 and u50497
+SEVERE: 2019-05-24 23:01:19 911 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u39763 and u42904
+SEVERE: 2019-05-24 23:01:19 939 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61724 and u5950
+SEVERE: 2019-05-24 23:01:19 949 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9635 and u35742
+SEVERE: 2019-05-24 23:01:19 971 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8998 and u52370
+SEVERE: 2019-05-24 23:01:19 992 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3478 and u66635
+SEVERE: 2019-05-24 23:01:20 4 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9403 and u72816
+SEVERE: 2019-05-24 23:01:20 12 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u45512 and u4517
+SEVERE: 2019-05-24 23:01:20 13 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12103 and u1989
+SEVERE: 2019-05-24 23:01:20 31 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61137 and u42505
+SEVERE: 2019-05-24 23:01:20 33 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5036 and u64349
+SEVERE: 2019-05-24 23:01:20 50 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11365 and u36547
+SEVERE: 2019-05-24 23:01:20 60 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10376 and u76243
+SEVERE: 2019-05-24 23:01:20 67 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33569 and u15844
+SEVERE: 2019-05-24 23:01:20 78 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14466 and u71430
+SEVERE: 2019-05-24 23:01:20 85 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3224 and u37287
+SEVERE: 2019-05-24 23:01:20 118 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7686 and u79305
+SEVERE: 2019-05-24 23:01:20 130 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3041 and u56557
+SEVERE: 2019-05-24 23:01:20 136 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12744 and u98103
+SEVERE: 2019-05-24 23:01:20 159 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14236 and u43982
+SEVERE: 2019-05-24 23:01:20 210 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7357 and u26348
+SEVERE: 2019-05-24 23:01:20 234 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7524 and u44046
+SEVERE: 2019-05-24 23:01:20 261 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u68040 and u30189
+SEVERE: 2019-05-24 23:01:20 279 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10506 and u94792
+SEVERE: 2019-05-24 23:01:20 287 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u73332 and u47837
+SEVERE: 2019-05-24 23:01:20 305 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u18610 and u92896
+SEVERE: 2019-05-24 23:01:20 345 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10825 and u52599
+SEVERE: 2019-05-24 23:01:20 374 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6414 and u6635
+SEVERE: 2019-05-24 23:01:20 391 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10748 and u7463
+SEVERE: 2019-05-24 23:01:20 420 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8798 and u50377
+SEVERE: 2019-05-24 23:01:20 428 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2627 and u67486
+SEVERE: 2019-05-24 23:01:20 431 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7173 and u86546
+SEVERE: 2019-05-24 23:01:20 433 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u35068 and u32512
+SEVERE: 2019-05-24 23:01:20 439 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6211 and u6555
+SEVERE: 2019-05-24 23:01:20 462 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u72591 and u23059
+SEVERE: 2019-05-24 23:01:20 500 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u24884 and u2224
+SEVERE: 2019-05-24 23:01:20 516 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1777 and u61582
+SEVERE: 2019-05-24 23:01:20 545 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11161 and u8658
+SEVERE: 2019-05-24 23:01:20 553 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u51275 and u7424
+SEVERE: 2019-05-24 23:01:20 563 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2030 and u88436
+SEVERE: 2019-05-24 23:01:20 584 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75409 and u96371
+SEVERE: 2019-05-24 23:01:20 596 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4497 and u36625
+SEVERE: 2019-05-24 23:01:20 596 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9457 and u90895
+SEVERE: 2019-05-24 23:01:20 604 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u84457 and u32552
+SEVERE: 2019-05-24 23:01:20 618 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12353 and u11943
+SEVERE: 2019-05-24 23:01:20 638 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u59755 and u40538
+SEVERE: 2019-05-24 23:01:20 649 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89999 and u60445
+SEVERE: 2019-05-24 23:01:20 696 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9275 and u85913
+SEVERE: 2019-05-24 23:01:20 726 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12638 and u71691
+SEVERE: 2019-05-24 23:01:20 734 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2068 and u67916
+SEVERE: 2019-05-24 23:01:20 742 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33756 and u2607
+SEVERE: 2019-05-24 23:01:20 753 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3404 and u55899
+SEVERE: 2019-05-24 23:01:20 790 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6690 and u14526
+SEVERE: 2019-05-24 23:01:20 814 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5199 and u2630
+SEVERE: 2019-05-24 23:01:20 854 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u44554 and u51417
+SEVERE: 2019-05-24 23:01:20 857 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u76218 and u92993
+SEVERE: 2019-05-24 23:01:20 880 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3977 and u15022
+SEVERE: 2019-05-24 23:01:20 888 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13224 and u53687
+SEVERE: 2019-05-24 23:01:20 901 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u40289 and u47932
+SEVERE: 2019-05-24 23:01:20 911 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u84820 and u11299
+SEVERE: 2019-05-24 23:01:20 936 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8392 and u10917
+SEVERE: 2019-05-24 23:01:20 970 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u72254 and u83535
+SEVERE: 2019-05-24 23:01:21 10 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9374 and u72938
+SEVERE: 2019-05-24 23:01:21 19 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1205 and u23093
+SEVERE: 2019-05-24 23:01:21 58 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u66190 and u64789
+SEVERE: 2019-05-24 23:01:21 143 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u24986 and u47079
+SEVERE: 2019-05-24 23:01:21 152 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61 and u51034
+SEVERE: 2019-05-24 23:01:21 183 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u22867 and u15511
+SEVERE: 2019-05-24 23:01:21 190 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12474 and u65228
+SEVERE: 2019-05-24 23:01:21 191 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u56521 and u46765
+SEVERE: 2019-05-24 23:01:21 195 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74382 and u11034
+SEVERE: 2019-05-24 23:01:21 205 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3932 and u27389
+SEVERE: 2019-05-24 23:01:21 216 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u93593 and u78414
+SEVERE: 2019-05-24 23:01:21 254 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u65893 and u50235
+SEVERE: 2019-05-24 23:01:21 261 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u21123 and u73840
+SEVERE: 2019-05-24 23:01:21 282 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u23906 and u71389
+SEVERE: 2019-05-24 23:01:21 300 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u45679 and u42811
+SEVERE: 2019-05-24 23:01:21 314 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1107 and u13987
+SEVERE: 2019-05-24 23:01:21 335 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u99176 and u22847
+SEVERE: 2019-05-24 23:01:21 345 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3531 and u12798
+SEVERE: 2019-05-24 23:01:21 375 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12444 and u1283
+SEVERE: 2019-05-24 23:01:21 451 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5329 and u16973
+SEVERE: 2019-05-24 23:01:21 462 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74168 and u68454
+SEVERE: 2019-05-24 23:01:21 482 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u35935 and u7246
+SEVERE: 2019-05-24 23:01:21 511 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u88982 and u61064
+SEVERE: 2019-05-24 23:01:21 517 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13358 and u6385
+SEVERE: 2019-05-24 23:01:21 562 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u42353 and u55126
+SEVERE: 2019-05-24 23:01:21 576 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6198 and u63509
+SEVERE: 2019-05-24 23:01:21 579 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61366 and u54486
+SEVERE: 2019-05-24 23:01:21 599 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10320 and u2692
+SEVERE: 2019-05-24 23:01:21 608 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3157 and u23312
+SEVERE: 2019-05-24 23:01:21 625 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u90586 and u22253
+SEVERE: 2019-05-24 23:01:21 635 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u29508 and u63212
+SEVERE: 2019-05-24 23:01:21 636 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2482 and u82754
+SEVERE: 2019-05-24 23:01:21 667 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33226 and u26276
+SEVERE: 2019-05-24 23:01:21 717 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6383 and u72538
+SEVERE: 2019-05-24 23:01:21 729 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7527 and u89231
+SEVERE: 2019-05-24 23:01:21 733 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u66485 and u71637
+SEVERE: 2019-05-24 23:01:21 749 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u93555 and u2547
+SEVERE: 2019-05-24 23:01:21 752 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11140 and u86780
+SEVERE: 2019-05-24 23:01:21 765 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7031 and u40484
+SEVERE: 2019-05-24 23:01:21 791 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u28257 and u34794
+SEVERE: 2019-05-24 23:01:21 805 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6519 and u80181
+SEVERE: 2019-05-24 23:01:21 817 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5915 and u9444
+SEVERE: 2019-05-24 23:01:21 824 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11565 and u71539
+SEVERE: 2019-05-24 23:01:21 850 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7493 and u64926
+SEVERE: 2019-05-24 23:01:21 859 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3215 and u49834
+SEVERE: 2019-05-24 23:01:21 864 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13338 and u24971
+SEVERE: 2019-05-24 23:01:21 890 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9385 and u75307
+SEVERE: 2019-05-24 23:01:21 905 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7280 and u49872
+SEVERE: 2019-05-24 23:01:21 905 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89831 and u13257
+SEVERE: 2019-05-24 23:01:21 929 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9482 and u51515
+SEVERE: 2019-05-24 23:01:21 979 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75489 and u4424
+SEVERE: 2019-05-24 23:01:21 991 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6581 and u21951
+SEVERE: 2019-05-24 23:01:22 9 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u88876 and u13212
+SEVERE: 2019-05-24 23:01:22 13 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8406 and u51410
+SEVERE: 2019-05-24 23:01:22 14 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u81278 and u9660
+SEVERE: 2019-05-24 23:01:22 42 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11133 and u4516
+SEVERE: 2019-05-24 23:01:22 45 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3155 and u79647
+SEVERE: 2019-05-24 23:01:22 75 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u81358 and u5681
+SEVERE: 2019-05-24 23:01:22 144 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8831 and u97178
+SEVERE: 2019-05-24 23:01:22 151 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4290 and u72858
+SEVERE: 2019-05-24 23:01:22 215 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4469 and u75444
+SEVERE: 2019-05-24 23:01:22 238 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4212 and u25756
+SEVERE: 2019-05-24 23:01:22 239 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1444 and u76589
+SEVERE: 2019-05-24 23:01:22 261 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u69867 and u215
+SEVERE: 2019-05-24 23:01:22 262 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8311 and u32069
+SEVERE: 2019-05-24 23:01:22 283 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32215 and u65780
+SEVERE: 2019-05-24 23:01:22 322 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u46698 and u91424
+SEVERE: 2019-05-24 23:01:22 364 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61335 and u4973
+SEVERE: 2019-05-24 23:01:22 369 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32104 and u59789
+SEVERE: 2019-05-24 23:01:22 371 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u17022 and u78986
+SEVERE: 2019-05-24 23:01:22 382 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12153 and u55500
+SEVERE: 2019-05-24 23:01:22 399 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8152 and u61881
+SEVERE: 2019-05-24 23:01:22 412 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u44968 and u37029
+SEVERE: 2019-05-24 23:01:22 454 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5198 and u15967
+SEVERE: 2019-05-24 23:01:22 466 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6827 and u7553
+SEVERE: 2019-05-24 23:01:22 476 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u55457 and u37342
+SEVERE: 2019-05-24 23:01:22 482 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4775 and u14115
+SEVERE: 2019-05-24 23:01:22 489 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6683 and u52333
+SEVERE: 2019-05-24 23:01:22 492 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8107 and u57312
+SEVERE: 2019-05-24 23:01:22 517 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2787 and u19004
+SEVERE: 2019-05-24 23:01:22 557 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8961 and u75409
+SEVERE: 2019-05-24 23:01:22 568 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13044 and u73674
+SEVERE: 2019-05-24 23:01:22 599 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2088 and u76942
+SEVERE: 2019-05-24 23:01:22 633 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3568 and u52354
+SEVERE: 2019-05-24 23:01:22 652 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u26893 and u83815
+SEVERE: 2019-05-24 23:01:22 697 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u30240 and u63817
+SEVERE: 2019-05-24 23:01:22 732 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3128 and u62877
+SEVERE: 2019-05-24 23:01:22 738 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u80537 and u9291
+SEVERE: 2019-05-24 23:01:22 742 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7032 and u24370
+SEVERE: 2019-05-24 23:01:22 757 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u67271 and u31721
+SEVERE: 2019-05-24 23:01:22 761 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2001 and u91827
+SEVERE: 2019-05-24 23:01:22 771 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u40644 and u44639
+SEVERE: 2019-05-24 23:01:22 798 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6807 and u73521
+SEVERE: 2019-05-24 23:01:22 802 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u29852 and u30326
+SEVERE: 2019-05-24 23:01:22 811 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13661 and u81302
+SEVERE: 2019-05-24 23:01:22 825 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u34160 and u26435
+SEVERE: 2019-05-24 23:01:22 850 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2922 and u55462
+SEVERE: 2019-05-24 23:01:22 889 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u77332 and u30713
+SEVERE: 2019-05-24 23:01:22 892 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u62115 and u16625
+SEVERE: 2019-05-24 23:01:22 901 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61011 and u13955
+SEVERE: 2019-05-24 23:01:22 902 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5147 and u27752
+SEVERE: 2019-05-24 23:01:22 963 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u76136 and u34591
+SEVERE: 2019-05-24 23:01:22 995 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8552 and u68738
+SEVERE: 2019-05-24 23:01:22 997 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12810 and u54448
+SEVERE: 2019-05-24 23:01:23 4 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u64467 and u64126
+SEVERE: 2019-05-24 23:01:23 26 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5481 and u3441
+SEVERE: 2019-05-24 23:01:23 32 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u42207 and u99442
+SEVERE: 2019-05-24 23:01:23 39 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13184 and u70851
+SEVERE: 2019-05-24 23:01:23 66 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u77443 and u25320
+INFO: 2019-05-24 23:01:42 183 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+SEVERE: 2019-05-24 23:01:45 629 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5568 and u81373
+SEVERE: 2019-05-24 23:01:45 632 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6573 and u12423
+SEVERE: 2019-05-24 23:01:45 633 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1571 and u67118
+SEVERE: 2019-05-24 23:01:45 636 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12339 and u67222
+SEVERE: 2019-05-24 23:01:45 642 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6635 and u10296
+SEVERE: 2019-05-24 23:01:45 653 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9768 and u20134
+SEVERE: 2019-05-24 23:01:45 658 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3630 and u27049
+SEVERE: 2019-05-24 23:01:45 658 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3269 and u36315
+SEVERE: 2019-05-24 23:01:45 668 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32451 and u62358
+SEVERE: 2019-05-24 23:01:45 671 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13492 and u8960
+SEVERE: 2019-05-24 23:01:45 672 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4721 and u33705
+SEVERE: 2019-05-24 23:01:45 684 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12926 and u35084
+SEVERE: 2019-05-24 23:01:45 728 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6024 and u96644
+SEVERE: 2019-05-24 23:01:45 731 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u36249
+SEVERE: 2019-05-24 23:01:45 738 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12635 and u34402
+SEVERE: 2019-05-24 23:01:45 742 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14003 and u92738
+SEVERE: 2019-05-24 23:01:45 758 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5476 and u73645
+SEVERE: 2019-05-24 23:01:45 764 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13142 and u23868
+SEVERE: 2019-05-24 23:01:45 769 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12430 and u94757
+SEVERE: 2019-05-24 23:01:45 776 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u31915 and u14593
+SEVERE: 2019-05-24 23:01:45 779 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6189 and u69412
+SEVERE: 2019-05-24 23:01:45 780 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11338 and u78218
+SEVERE: 2019-05-24 23:01:45 781 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75365 and u9647
+SEVERE: 2019-05-24 23:01:45 783 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u22458 and u56300
+SEVERE: 2019-05-24 23:01:45 784 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74725 and u5267
+SEVERE: 2019-05-24 23:01:45 789 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u64418 and u12673
+SEVERE: 2019-05-24 23:01:45 796 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u62814
+SEVERE: 2019-05-24 23:01:45 798 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13175 and u42554
+SEVERE: 2019-05-24 23:01:45 807 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2609 and u67394
+SEVERE: 2019-05-24 23:01:45 815 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5301 and u30755
+SEVERE: 2019-05-24 23:01:45 819 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1118 and u73051
+SEVERE: 2019-05-24 23:01:45 823 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12282 and u7224
+SEVERE: 2019-05-24 23:01:45 825 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u27718 and u97870
+SEVERE: 2019-05-24 23:01:45 829 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12954 and u97074
+SEVERE: 2019-05-24 23:01:45 837 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3093 and u94626
+SEVERE: 2019-05-24 23:01:45 854 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10242 and u26116
+SEVERE: 2019-05-24 23:01:45 859 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8391 and u56309
+SEVERE: 2019-05-24 23:01:45 875 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7216 and u40664
+SEVERE: 2019-05-24 23:01:45 879 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89903 and u50497
+SEVERE: 2019-05-24 23:01:45 893 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u39763 and u42904
+SEVERE: 2019-05-24 23:01:45 910 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61724 and u5950
+SEVERE: 2019-05-24 23:01:45 918 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9635 and u35742
+SEVERE: 2019-05-24 23:01:45 932 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8998 and u52370
+SEVERE: 2019-05-24 23:01:45 944 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3478 and u66635
+SEVERE: 2019-05-24 23:01:45 951 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9403 and u72816
+SEVERE: 2019-05-24 23:01:45 957 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u45512 and u4517
+SEVERE: 2019-05-24 23:01:45 957 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12103 and u1989
+SEVERE: 2019-05-24 23:01:45 968 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61137 and u42505
+SEVERE: 2019-05-24 23:01:45 969 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5036 and u64349
+SEVERE: 2019-05-24 23:01:45 979 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11365 and u36547
+SEVERE: 2019-05-24 23:01:45 987 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10376 and u76243
+SEVERE: 2019-05-24 23:01:45 992 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33569 and u15844
+SEVERE: 2019-05-24 23:01:45 999 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14466 and u71430
+SEVERE: 2019-05-24 23:01:46 6 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3224 and u37287
+SEVERE: 2019-05-24 23:01:46 23 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7686 and u79305
+SEVERE: 2019-05-24 23:01:46 32 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3041 and u56557
+SEVERE: 2019-05-24 23:01:46 36 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12744 and u98103
+SEVERE: 2019-05-24 23:01:46 51 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14236 and u43982
+SEVERE: 2019-05-24 23:01:46 82 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7357 and u26348
+SEVERE: 2019-05-24 23:01:46 95 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7524 and u44046
+SEVERE: 2019-05-24 23:01:46 112 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u68040 and u30189
+SEVERE: 2019-05-24 23:01:46 122 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10506 and u94792
+SEVERE: 2019-05-24 23:01:46 127 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u73332 and u47837
+SEVERE: 2019-05-24 23:01:46 140 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u18610 and u92896
+SEVERE: 2019-05-24 23:01:46 162 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10825 and u52599
+SEVERE: 2019-05-24 23:01:46 180 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6414 and u6635
+SEVERE: 2019-05-24 23:01:46 193 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10748 and u7463
+SEVERE: 2019-05-24 23:01:46 214 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8798 and u50377
+SEVERE: 2019-05-24 23:01:46 219 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2627 and u67486
+SEVERE: 2019-05-24 23:01:46 221 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7173 and u86546
+SEVERE: 2019-05-24 23:01:46 224 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u35068 and u32512
+SEVERE: 2019-05-24 23:01:46 228 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6211 and u6555
+SEVERE: 2019-05-24 23:01:46 244 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u72591 and u23059
+SEVERE: 2019-05-24 23:01:46 269 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u24884 and u2224
+SEVERE: 2019-05-24 23:01:46 281 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1777 and u61582
+SEVERE: 2019-05-24 23:01:46 300 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11161 and u8658
+SEVERE: 2019-05-24 23:01:46 305 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u51275 and u7424
+SEVERE: 2019-05-24 23:01:46 314 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2030 and u88436
+INFO: 2019-05-24 23:01:51 534 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 23:02:02 666 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+SEVERE: 2019-05-24 23:02:07 586 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5568 and u81373
+SEVERE: 2019-05-24 23:02:07 589 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6573 and u12423
+SEVERE: 2019-05-24 23:02:07 590 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1571 and u67118
+SEVERE: 2019-05-24 23:02:07 594 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12339 and u67222
+SEVERE: 2019-05-24 23:02:07 599 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6635 and u10296
+SEVERE: 2019-05-24 23:02:07 613 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9768 and u20134
+SEVERE: 2019-05-24 23:02:07 619 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3630 and u27049
+SEVERE: 2019-05-24 23:02:07 620 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3269 and u36315
+SEVERE: 2019-05-24 23:02:07 633 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32451 and u62358
+SEVERE: 2019-05-24 23:02:07 637 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13492 and u8960
+SEVERE: 2019-05-24 23:02:07 639 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4721 and u33705
+SEVERE: 2019-05-24 23:02:07 653 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12926 and u35084
+SEVERE: 2019-05-24 23:02:07 673 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6024 and u96644
+SEVERE: 2019-05-24 23:02:07 676 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u36249
+SEVERE: 2019-05-24 23:02:07 688 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12635 and u34402
+SEVERE: 2019-05-24 23:02:07 694 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14003 and u92738
+SEVERE: 2019-05-24 23:02:07 722 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5476 and u73645
+SEVERE: 2019-05-24 23:02:07 732 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13142 and u23868
+SEVERE: 2019-05-24 23:02:07 742 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12430 and u94757
+SEVERE: 2019-05-24 23:02:07 754 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u31915 and u14593
+SEVERE: 2019-05-24 23:02:07 759 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6189 and u69412
+SEVERE: 2019-05-24 23:02:07 762 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11338 and u78218
+SEVERE: 2019-05-24 23:02:07 763 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75365 and u9647
+SEVERE: 2019-05-24 23:02:07 767 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u22458 and u56300
+SEVERE: 2019-05-24 23:02:07 769 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74725 and u5267
+SEVERE: 2019-05-24 23:02:07 776 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u64418 and u12673
+SEVERE: 2019-05-24 23:02:07 790 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u62814
+SEVERE: 2019-05-24 23:02:07 793 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13175 and u42554
+SEVERE: 2019-05-24 23:02:07 810 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2609 and u67394
+SEVERE: 2019-05-24 23:02:07 824 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5301 and u30755
+SEVERE: 2019-05-24 23:02:07 831 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1118 and u73051
+SEVERE: 2019-05-24 23:02:07 837 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12282 and u7224
+SEVERE: 2019-05-24 23:02:07 841 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u27718 and u97870
+SEVERE: 2019-05-24 23:02:07 847 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12954 and u97074
+SEVERE: 2019-05-24 23:02:07 860 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3093 and u94626
+SEVERE: 2019-05-24 23:02:07 891 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10242 and u26116
+SEVERE: 2019-05-24 23:02:07 898 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8391 and u56309
+SEVERE: 2019-05-24 23:02:07 924 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7216 and u40664
+SEVERE: 2019-05-24 23:02:07 931 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89903 and u50497
+SEVERE: 2019-05-24 23:02:07 953 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u39763 and u42904
+SEVERE: 2019-05-24 23:02:07 981 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61724 and u5950
+SEVERE: 2019-05-24 23:02:07 992 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9635 and u35742
+SEVERE: 2019-05-24 23:02:08 13 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8998 and u52370
+SEVERE: 2019-05-24 23:02:08 34 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3478 and u66635
+SEVERE: 2019-05-24 23:02:08 47 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9403 and u72816
+SEVERE: 2019-05-24 23:02:08 55 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u45512 and u4517
+SEVERE: 2019-05-24 23:02:08 56 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12103 and u1989
+SEVERE: 2019-05-24 23:02:08 75 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61137 and u42505
+SEVERE: 2019-05-24 23:02:08 76 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5036 and u64349
+SEVERE: 2019-05-24 23:02:08 93 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11365 and u36547
+SEVERE: 2019-05-24 23:02:08 103 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10376 and u76243
+INFO: 2019-05-24 23:02:11 593 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-24 23:09:36 915 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:10:54 310 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:24:55 629 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:29:15 396 applications.MyOrbitScenes simulateStellarSystem 输入选项错误，请重新输入！
+INFO: 2019-05-24 23:29:41 454 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:29:48 842 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:29:56 123 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:30:06 579 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:31:10 341 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-24 23:31:39 959 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+SEVERE: 2019-05-24 23:31:44 236 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5568 and u81373
+SEVERE: 2019-05-24 23:31:44 238 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6573 and u12423
+SEVERE: 2019-05-24 23:31:44 240 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1571 and u67118
+SEVERE: 2019-05-24 23:31:44 242 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12339 and u67222
+SEVERE: 2019-05-24 23:31:44 247 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6635 and u10296
+SEVERE: 2019-05-24 23:31:44 259 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9768 and u20134
+SEVERE: 2019-05-24 23:31:44 264 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3630 and u27049
+SEVERE: 2019-05-24 23:31:44 265 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3269 and u36315
+SEVERE: 2019-05-24 23:31:44 276 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32451 and u62358
+SEVERE: 2019-05-24 23:31:44 279 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13492 and u8960
+SEVERE: 2019-05-24 23:31:44 280 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4721 and u33705
+SEVERE: 2019-05-24 23:31:44 293 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12926 and u35084
+SEVERE: 2019-05-24 23:31:44 314 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6024 and u96644
+SEVERE: 2019-05-24 23:31:44 317 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u36249
+SEVERE: 2019-05-24 23:31:44 336 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12635 and u34402
+SEVERE: 2019-05-24 23:31:44 342 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14003 and u92738
+SEVERE: 2019-05-24 23:31:44 373 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5476 and u73645
+SEVERE: 2019-05-24 23:31:44 381 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13142 and u23868
+SEVERE: 2019-05-24 23:31:44 394 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12430 and u94757
+SEVERE: 2019-05-24 23:31:44 407 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u31915 and u14593
+SEVERE: 2019-05-24 23:31:44 413 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6189 and u69412
+SEVERE: 2019-05-24 23:31:44 417 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11338 and u78218
+SEVERE: 2019-05-24 23:31:44 418 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75365 and u9647
+SEVERE: 2019-05-24 23:31:44 423 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u22458 and u56300
+SEVERE: 2019-05-24 23:31:44 425 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74725 and u5267
+SEVERE: 2019-05-24 23:31:44 432 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u64418 and u12673
+SEVERE: 2019-05-24 23:31:44 444 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11665 and u62814
+SEVERE: 2019-05-24 23:31:44 447 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13175 and u42554
+SEVERE: 2019-05-24 23:31:44 463 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2609 and u67394
+SEVERE: 2019-05-24 23:31:44 477 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5301 and u30755
+SEVERE: 2019-05-24 23:31:44 483 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1118 and u73051
+SEVERE: 2019-05-24 23:31:44 498 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12282 and u7224
+SEVERE: 2019-05-24 23:31:44 527 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u27718 and u97870
+SEVERE: 2019-05-24 23:31:44 540 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12954 and u97074
+SEVERE: 2019-05-24 23:31:44 553 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3093 and u94626
+SEVERE: 2019-05-24 23:31:44 618 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10242 and u26116
+SEVERE: 2019-05-24 23:31:44 627 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8391 and u56309
+SEVERE: 2019-05-24 23:31:44 653 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7216 and u40664
+SEVERE: 2019-05-24 23:31:44 660 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89903 and u50497
+SEVERE: 2019-05-24 23:31:44 683 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u39763 and u42904
+SEVERE: 2019-05-24 23:31:44 716 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61724 and u5950
+SEVERE: 2019-05-24 23:31:44 726 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9635 and u35742
+SEVERE: 2019-05-24 23:31:44 749 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8998 and u52370
+SEVERE: 2019-05-24 23:31:44 772 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3478 and u66635
+SEVERE: 2019-05-24 23:31:44 784 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9403 and u72816
+SEVERE: 2019-05-24 23:31:44 793 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u45512 and u4517
+SEVERE: 2019-05-24 23:31:44 794 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12103 and u1989
+SEVERE: 2019-05-24 23:31:44 813 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61137 and u42505
+SEVERE: 2019-05-24 23:31:44 815 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5036 and u64349
+SEVERE: 2019-05-24 23:31:44 834 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11365 and u36547
+SEVERE: 2019-05-24 23:31:44 845 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10376 and u76243
+SEVERE: 2019-05-24 23:31:44 854 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33569 and u15844
+SEVERE: 2019-05-24 23:31:44 866 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14466 and u71430
+SEVERE: 2019-05-24 23:31:44 875 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3224 and u37287
+SEVERE: 2019-05-24 23:31:44 907 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7686 and u79305
+SEVERE: 2019-05-24 23:31:44 922 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3041 and u56557
+SEVERE: 2019-05-24 23:31:44 929 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12744 and u98103
+SEVERE: 2019-05-24 23:31:44 951 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u14236 and u43982
+SEVERE: 2019-05-24 23:31:45 23 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7357 and u26348
+SEVERE: 2019-05-24 23:31:45 46 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7524 and u44046
+SEVERE: 2019-05-24 23:31:45 75 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u68040 and u30189
+SEVERE: 2019-05-24 23:31:45 94 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10506 and u94792
+SEVERE: 2019-05-24 23:31:45 101 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u73332 and u47837
+SEVERE: 2019-05-24 23:31:45 120 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u18610 and u92896
+SEVERE: 2019-05-24 23:31:45 158 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10825 and u52599
+SEVERE: 2019-05-24 23:31:45 186 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6414 and u6635
+SEVERE: 2019-05-24 23:31:45 203 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10748 and u7463
+SEVERE: 2019-05-24 23:31:45 238 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8798 and u50377
+SEVERE: 2019-05-24 23:31:45 246 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2627 and u67486
+SEVERE: 2019-05-24 23:31:45 251 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7173 and u86546
+SEVERE: 2019-05-24 23:31:45 253 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u35068 and u32512
+SEVERE: 2019-05-24 23:31:45 261 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6211 and u6555
+SEVERE: 2019-05-24 23:31:45 285 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u72591 and u23059
+SEVERE: 2019-05-24 23:31:45 326 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u24884 and u2224
+SEVERE: 2019-05-24 23:31:45 343 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1777 and u61582
+SEVERE: 2019-05-24 23:31:45 372 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11161 and u8658
+SEVERE: 2019-05-24 23:31:45 380 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u51275 and u7424
+SEVERE: 2019-05-24 23:31:45 391 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2030 and u88436
+SEVERE: 2019-05-24 23:31:45 412 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75409 and u96371
+SEVERE: 2019-05-24 23:31:45 424 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4497 and u36625
+SEVERE: 2019-05-24 23:31:45 424 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9457 and u90895
+SEVERE: 2019-05-24 23:31:45 432 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u84457 and u32552
+SEVERE: 2019-05-24 23:31:45 444 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12353 and u11943
+SEVERE: 2019-05-24 23:31:45 465 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u59755 and u40538
+SEVERE: 2019-05-24 23:31:45 476 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89999 and u60445
+SEVERE: 2019-05-24 23:31:45 521 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9275 and u85913
+SEVERE: 2019-05-24 23:31:45 551 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12638 and u71691
+SEVERE: 2019-05-24 23:31:45 559 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2068 and u67916
+SEVERE: 2019-05-24 23:31:45 568 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33756 and u2607
+SEVERE: 2019-05-24 23:31:45 579 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3404 and u55899
+SEVERE: 2019-05-24 23:31:45 612 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6690 and u14526
+SEVERE: 2019-05-24 23:31:45 629 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5199 and u2630
+SEVERE: 2019-05-24 23:31:45 675 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u44554 and u51417
+SEVERE: 2019-05-24 23:31:45 678 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u76218 and u92993
+SEVERE: 2019-05-24 23:31:45 700 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3977 and u15022
+SEVERE: 2019-05-24 23:31:45 708 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13224 and u53687
+SEVERE: 2019-05-24 23:31:45 720 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u40289 and u47932
+SEVERE: 2019-05-24 23:31:45 726 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u84820 and u11299
+SEVERE: 2019-05-24 23:31:45 751 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8392 and u10917
+SEVERE: 2019-05-24 23:31:45 779 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u72254 and u83535
+SEVERE: 2019-05-24 23:31:45 818 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9374 and u72938
+SEVERE: 2019-05-24 23:31:45 826 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1205 and u23093
+SEVERE: 2019-05-24 23:31:45 863 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u66190 and u64789
+SEVERE: 2019-05-24 23:31:45 944 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u24986 and u47079
+SEVERE: 2019-05-24 23:31:45 953 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61 and u51034
+SEVERE: 2019-05-24 23:31:45 983 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u22867 and u15511
+SEVERE: 2019-05-24 23:31:45 990 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12474 and u65228
+SEVERE: 2019-05-24 23:31:45 991 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u56521 and u46765
+SEVERE: 2019-05-24 23:31:45 995 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74382 and u11034
+SEVERE: 2019-05-24 23:31:46 5 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3932 and u27389
+SEVERE: 2019-05-24 23:31:46 18 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u93593 and u78414
+SEVERE: 2019-05-24 23:31:46 53 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u65893 and u50235
+SEVERE: 2019-05-24 23:31:46 60 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u21123 and u73840
+SEVERE: 2019-05-24 23:31:46 81 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u23906 and u71389
+SEVERE: 2019-05-24 23:31:46 100 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u45679 and u42811
+SEVERE: 2019-05-24 23:31:46 112 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1107 and u13987
+SEVERE: 2019-05-24 23:31:46 133 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u99176 and u22847
+SEVERE: 2019-05-24 23:31:46 145 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3531 and u12798
+SEVERE: 2019-05-24 23:31:46 174 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12444 and u1283
+SEVERE: 2019-05-24 23:31:46 251 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5329 and u16973
+SEVERE: 2019-05-24 23:31:46 263 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u74168 and u68454
+SEVERE: 2019-05-24 23:31:46 283 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u35935 and u7246
+SEVERE: 2019-05-24 23:31:46 310 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u88982 and u61064
+SEVERE: 2019-05-24 23:31:46 315 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13358 and u6385
+SEVERE: 2019-05-24 23:31:46 363 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u42353 and u55126
+SEVERE: 2019-05-24 23:31:46 377 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6198 and u63509
+SEVERE: 2019-05-24 23:31:46 381 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61366 and u54486
+SEVERE: 2019-05-24 23:31:46 401 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u10320 and u2692
+SEVERE: 2019-05-24 23:31:46 410 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3157 and u23312
+SEVERE: 2019-05-24 23:31:46 427 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u90586 and u22253
+SEVERE: 2019-05-24 23:31:46 437 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u29508 and u63212
+SEVERE: 2019-05-24 23:31:46 439 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2482 and u82754
+SEVERE: 2019-05-24 23:31:46 470 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u33226 and u26276
+SEVERE: 2019-05-24 23:31:46 523 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6383 and u72538
+SEVERE: 2019-05-24 23:31:46 537 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7527 and u89231
+SEVERE: 2019-05-24 23:31:46 541 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u66485 and u71637
+SEVERE: 2019-05-24 23:31:46 556 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u93555 and u2547
+SEVERE: 2019-05-24 23:31:46 559 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11140 and u86780
+SEVERE: 2019-05-24 23:31:46 573 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7031 and u40484
+SEVERE: 2019-05-24 23:31:46 598 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u28257 and u34794
+SEVERE: 2019-05-24 23:31:46 612 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6519 and u80181
+SEVERE: 2019-05-24 23:31:46 624 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5915 and u9444
+SEVERE: 2019-05-24 23:31:46 632 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11565 and u71539
+SEVERE: 2019-05-24 23:31:46 657 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7493 and u64926
+SEVERE: 2019-05-24 23:31:46 666 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3215 and u49834
+SEVERE: 2019-05-24 23:31:46 671 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13338 and u24971
+SEVERE: 2019-05-24 23:31:46 697 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9385 and u75307
+SEVERE: 2019-05-24 23:31:46 713 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7280 and u49872
+SEVERE: 2019-05-24 23:31:46 714 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u89831 and u13257
+SEVERE: 2019-05-24 23:31:46 739 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u9482 and u51515
+SEVERE: 2019-05-24 23:31:46 791 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u75489 and u4424
+SEVERE: 2019-05-24 23:31:46 802 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6581 and u21951
+SEVERE: 2019-05-24 23:31:46 821 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u88876 and u13212
+SEVERE: 2019-05-24 23:31:46 824 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8406 and u51410
+SEVERE: 2019-05-24 23:31:46 825 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u81278 and u9660
+SEVERE: 2019-05-24 23:31:46 855 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u11133 and u4516
+SEVERE: 2019-05-24 23:31:46 858 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3155 and u79647
+SEVERE: 2019-05-24 23:31:46 891 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u81358 and u5681
+SEVERE: 2019-05-24 23:31:46 948 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8831 and u97178
+SEVERE: 2019-05-24 23:31:46 954 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4290 and u72858
+SEVERE: 2019-05-24 23:31:47 0 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4469 and u75444
+SEVERE: 2019-05-24 23:31:47 21 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4212 and u25756
+SEVERE: 2019-05-24 23:31:47 21 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u1444 and u76589
+SEVERE: 2019-05-24 23:31:47 42 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u69867 and u215
+SEVERE: 2019-05-24 23:31:47 43 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8311 and u32069
+SEVERE: 2019-05-24 23:31:47 63 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32215 and u65780
+SEVERE: 2019-05-24 23:31:47 100 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u46698 and u91424
+SEVERE: 2019-05-24 23:31:47 131 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61335 and u4973
+SEVERE: 2019-05-24 23:31:47 136 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u32104 and u59789
+SEVERE: 2019-05-24 23:31:47 138 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u17022 and u78986
+SEVERE: 2019-05-24 23:31:47 147 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u12153 and u55500
+SEVERE: 2019-05-24 23:31:47 164 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8152 and u61881
+SEVERE: 2019-05-24 23:31:47 177 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u44968 and u37029
+SEVERE: 2019-05-24 23:31:47 218 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5198 and u15967
+SEVERE: 2019-05-24 23:31:47 229 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6827 and u7553
+SEVERE: 2019-05-24 23:31:47 238 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u55457 and u37342
+SEVERE: 2019-05-24 23:31:47 243 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u4775 and u14115
+SEVERE: 2019-05-24 23:31:47 248 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6683 and u52333
+SEVERE: 2019-05-24 23:31:47 251 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8107 and u57312
+SEVERE: 2019-05-24 23:31:47 273 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2787 and u19004
+SEVERE: 2019-05-24 23:31:47 313 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u8961 and u75409
+SEVERE: 2019-05-24 23:31:47 324 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13044 and u73674
+SEVERE: 2019-05-24 23:31:47 355 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2088 and u76942
+SEVERE: 2019-05-24 23:31:47 389 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3568 and u52354
+SEVERE: 2019-05-24 23:31:47 407 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u26893 and u83815
+SEVERE: 2019-05-24 23:31:47 451 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u30240 and u63817
+SEVERE: 2019-05-24 23:31:47 486 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u3128 and u62877
+SEVERE: 2019-05-24 23:31:47 492 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u80537 and u9291
+SEVERE: 2019-05-24 23:31:47 495 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u7032 and u24370
+SEVERE: 2019-05-24 23:31:47 509 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u67271 and u31721
+SEVERE: 2019-05-24 23:31:47 514 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2001 and u91827
+SEVERE: 2019-05-24 23:31:47 523 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u40644 and u44639
+SEVERE: 2019-05-24 23:31:47 550 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u6807 and u73521
+SEVERE: 2019-05-24 23:31:47 555 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u29852 and u30326
+SEVERE: 2019-05-24 23:31:47 564 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u13661 and u81302
+SEVERE: 2019-05-24 23:31:47 577 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u34160 and u26435
+SEVERE: 2019-05-24 23:31:47 630 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u2922 and u55462
+SEVERE: 2019-05-24 23:31:47 680 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u77332 and u30713
+SEVERE: 2019-05-24 23:31:47 682 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u62115 and u16625
+SEVERE: 2019-05-24 23:31:47 691 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u61011 and u13955
+SEVERE: 2019-05-24 23:31:47 692 circularorbit.SocialNetworkCircle readFile exception.LabelException:两条社交关系不能连接同样的人! Wrong:u5147 and u27752
+INFO: 2019-05-24 23:35:27 176 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStucture_Medium.txt
+INFO: 2019-05-24 23:35:51 223 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Medium.txt
+INFO: 2019-05-24 23:36:04 98 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Medium.txt
+INFO: 2019-05-24 23:36:13 196 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-24 23:36:18 890 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Medium.txt
+INFO: 2019-05-24 23:36:59 113 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-24 23:37:05 396 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Medium.txt
+INFO: 2019-05-24 23:38:07 443 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure_Medium.txt
+INFO: 2019-05-24 23:38:42 360 applications.MyOrbitScenes simulateAtomStrcture 输入选项错误，请重新输入！
+INFO: 2019-05-25 00:43:21 269 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 00:43:26 106 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 00:43:45 538 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 00:44:13 111 applications.MyOrbitScenes simulateSocialNetwork 已读取文件read_txt/SocialNetworkCircle.txt
+INFO: 2019-05-25 11:18:43 246 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:18:47 617 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:20:13 431 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:20:17 486 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:21:12 575 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:21:24 96 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:21:34 386 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:21:37 946 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:50:15 271 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:50:58 464 applications.MyOrbitScenes simulateAtomStrcture 已读取文件Full GC
+INFO: 2019-05-25 11:51:21 619 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:51:26 206 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-25 11:51:30 433 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道4添加电子
+INFO: 2019-05-25 11:51:34 425 applications.MyOrbitScenes simulateAtomStrcture 删除2轨道
+INFO: 2019-05-25 11:51:38 677 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道3删除电子
+INFO: 2019-05-25 11:51:43 439 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 0.9518296804454554
+INFO: 2019-05-25 11:51:53 35 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:54:35 938 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomStructure.txt
+INFO: 2019-05-25 11:54:52 648 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:54:57 814 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 11:55:55 529 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 11:56:03 630 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 15:55:41 24 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 16:00:56 189 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-25 16:00:58 592 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道3添加电子
+INFO: 2019-05-25 16:01:01 839 applications.MyOrbitScenes simulateAtomStrcture 删除3轨道
+INFO: 2019-05-25 16:01:05 319 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道4删除电子
+INFO: 2019-05-25 16:01:08 768 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 0.9649629230074277
+INFO: 2019-05-25 16:07:13 218 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 16:07:38 839 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-25 16:07:41 579 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道2添加电子
+INFO: 2019-05-25 16:07:42 836 applications.MyOrbitScenes simulateAtomStrcture 删除2轨道
+INFO: 2019-05-25 16:07:49 516 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 16:08:51 799 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem_Medium.txt
+SEVERE: 2019-05-25 16:08:53 254 circularorbit.StellarSystem readFile exception.NumberException:e之前的数字的整数部分必须在1到9范围内 Wrong:10.0
+SEVERE: 2019-05-25 16:08:53 472 circularorbit.StellarSystem readFile exception.NumberException:e之前的数字的整数部分必须在1到9范围内 Wrong:10.0
+INFO: 2019-05-25 16:09:17 974 applications.MyOrbitScenes simulateStellarSystem 已成功添加轨道
+INFO: 2019-05-25 16:09:47 580 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 16:14:29 337 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 16:14:33 605 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-25 16:14:57 703 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 16:16:15 723 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 16:16:21 937 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-25 16:16:26 20 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 1.2681057323704885
+INFO: 2019-05-25 16:16:52 307 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 17:23:20 344 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-25 17:23:33 88 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-25 20:04:35 780 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 20:07:12 747 applications.MyOrbitScenes simulateStellarSystem 已成功添加轨道
+INFO: 2019-05-25 20:07:56 484 applications.MyOrbitScenes simulateStellarSystem 已成功为半径1 1 1 1 1 1 1 1 1的轨道添加1行星
+INFO: 2019-05-25 20:08:36 891 applications.MyOrbitScenes simulateStellarSystem 已成功删除半径为4.1488e12的轨道
+INFO: 2019-05-25 20:08:52 809 applications.MyOrbitScenes simulateStellarSystem 已成功从半径为2.1032e9的轨道删除行星p1
+INFO: 2019-05-25 20:18:02 843 applications.MyOrbitScenes simulateAtomStrcture 已读取文件VisualVM profiler 设定为“自动更新结果”。
+INFO: 2019-05-25 20:19:45 128 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 20:25:27 289 applications.MyOrbitScenes simulateStellarSystem 已成功添加轨道
+INFO: 2019-05-25 22:01:16 668 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 22:06:22 144 applications.MyOrbitScenes simulateStellarSystem 已成功添加轨道
+INFO: 2019-05-25 22:06:52 489 applications.MyOrbitScenes simulateStellarSystem 已成功为半径1 1 1 1 1 1 1 1 1的轨道添加1行星
+INFO: 2019-05-25 22:07:10 618 applications.MyOrbitScenes simulateStellarSystem 已成功删除半径为2.1032e9的轨道
+INFO: 2019-05-25 22:07:37 420 applications.MyOrbitScenes simulateStellarSystem 已成功从半径为4.2219e10的轨道删除行星p2
+INFO: 2019-05-25 22:07:40 881 applications.MyOrbitScenes simulateStellarSystem 该行星运动模型各轨道物体分布的熵值为3.9612966408403734E-5
+INFO: 2019-05-25 23:46:22 310 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-25 23:48:46 447 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 23:53:06 135 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-25 23:55:32 8 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-26 00:26:06 930 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 00:26:13 298 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-26 00:26:26 407 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道2添加电子
+INFO: 2019-05-26 00:26:30 704 applications.MyOrbitScenes simulateAtomStrcture 删除4轨道
+INFO: 2019-05-26 00:26:38 2 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道2删除电子
+INFO: 2019-05-26 00:26:39 537 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 0.9518296804454554
+INFO: 2019-05-26 00:28:14 667 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 00:31:09 173 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStrcture.txt
+INFO: 2019-05-26 00:31:17 357 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 00:33:21 906 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 00:33:36 227 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 00:35:01 706 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 00:35:20 720 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 00:36:59 21 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 00:37:07 795 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 00:44:48 882 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 00:53:52 186 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 01:03:48 437 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-26 01:03:51 411 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道2添加电子
+INFO: 2019-05-26 01:03:54 221 applications.MyOrbitScenes simulateAtomStrcture 删除3轨道
+INFO: 2019-05-26 01:03:58 221 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道4删除电子
+INFO: 2019-05-26 01:04:01 199 applications.MyOrbitScenes simulateAtomStrcture 该原子结构模型各轨道物体分布的熵值为 0.9551311954514641
+INFO: 2019-05-26 01:33:16 217 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-26 01:37:30 290 applications.MyOrbitScenes simulateStellarSystem 已成功添加轨道
+INFO: 2019-05-26 11:06:34 347 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-26 11:16:07 731 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 12:00:49 989 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 12:01:18 49 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-26 12:01:56 698 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 20:52:35 677 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-26 21:05:33 150 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-26 21:50:49 396 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-26 22:09:50 565 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-26 22:19:13 637 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 00:11:22 361 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-27 00:11:46 313 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 11:00:47 973 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 14:44:24 312 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-27 14:46:42 830 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 16:14:10 799 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-27 16:55:51 94 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 17:06:57 411 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-27 18:54:34 172 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 18:54:55 64 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 19:43:04 880 applications.MyOrbitScenes simulateStellarSystem 输入选项错误，请重新输入！
+INFO: 2019-05-27 19:43:09 536 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-27 21:48:24 695 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-27 22:56:11 879 applications.MyOrbitScenes simulateStellarSystem 已成功添加轨道
+INFO: 2019-05-28 14:02:45 970 applications.MyOrbitScenes simulateStellarSystem 已读取文件read_txt/StellarSystem.txt
+INFO: 2019-05-28 14:11:45 189 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-28 14:13:37 534 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-28 14:13:57 753 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-28 14:23:30 882 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-28 14:23:52 493 applications.MyOrbitScenes simulateAtomStrcture 已读取文件
+INFO: 2019-05-28 14:24:18 262 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-28 14:24:57 703 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-28 14:26:38 539 applications.MyOrbitScenes simulateAtomStrcture 已成功添加轨道
+INFO: 2019-05-28 14:34:45 406 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-28 14:43:43 948 applications.MyOrbitScenes simulateAtomStrcture 删除2轨道
+INFO: 2019-05-28 14:44:34 381 applications.MyOrbitScenes simulateAtomStrcture 已成功为轨道3添加电子
+INFO: 2019-05-28 14:45:32 456 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道3删除电子
+INFO: 2019-05-28 14:45:41 459 applications.MyOrbitScenes simulateAtomStrcture 已成功从轨道3删除电子
+INFO: 2019-05-28 14:46:42 551 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-28 14:48:28 161 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-28 14:49:59 31 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-28 14:57:05 558 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-28 15:02:46 977 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-28 15:03:17 897 applications.MyOrbitScenes simulateStellarSystem 已读取文件txt/StellarSystem.txt
+INFO: 2019-05-28 15:04:45 999 applications.MyOrbitScenes simulateStellarSystem 该行星运动模型各轨道物体分布的熵值为2.0794415416798357
+INFO: 2019-05-28 15:05:51 776 applications.MyOrbitScenes myMain 模拟结束！
+INFO: 2019-05-29 15:29:12 648 applications.MyOrbitScenes simulateAtomStrcture 已读取文件txt/AtomicStructure.txt
+INFO: 2019-05-29 15:29:19 305 applications.MyOrbitScenes myMain 模拟结束！
